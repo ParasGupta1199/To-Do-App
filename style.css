@@ -134,15 +134,15 @@ ul li button.delete-btn {
 }
 
 .uncheck-btn {
-    background-image: url(/images/circle-regular.svg);
+    background-image: url(images/circle-regular.svg);
 }
 
 .check-btn {
-    background-image: url(/images/circle-check-regular.svg);
+    background-image: url(images/circle-check-regular.svg);
 }
 
 .delete-btn {
-    background-image: url(/images/circle-xmark-solid.svg);
+    background-image: url(images/circle-xmark-solid.svg);
     position: absolute;
     right: 15px;
     top: 50%;
