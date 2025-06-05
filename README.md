@@ -15,7 +15,7 @@ Features include adding tasks, marking them as complete, deleting tasks, and sav
 
 ## 🔗 Live Demo
 
-[Click here to view the To-Do List app](https://parasgupta318.github.io/To-Do-App/)
+[Click here to use the To-Do List app](https://parasgupta318.github.io/To-Do-App/)
 
 ## 🚀 Features
 
