@@ -35,10 +35,12 @@ Features include adding tasks, marking them as complete, deleting tasks, and sav
 
 /Simple-To-Do-List  
 │  
+├── images             #Screenshot  
 ├── index.html         # HTML structure  
 ├── style.css          # Styles and layout  
 ├── script.js          # JavaScript logic for tasks  
 └── README.md          # Project documentation
+
 
 ---
 
