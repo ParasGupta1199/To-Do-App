@@ -144,8 +144,8 @@ ul li button.delete-btn {
 .delete-btn {
     background-image: url(images/circle-xmark-solid.svg);
     position: absolute;
-    right: 15px;
-    top: 50%;
+    right: 22px;
+    top: 22px;
     transform: translateY(-50%);
 }
 
