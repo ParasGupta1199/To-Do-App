@@ -111,7 +111,7 @@ ul li {
 /* Make the text flexible and break on small widths */
 ul li span:nth-child(2) {
     flex-grow: 1;
-    word-break: break-word;
+    word-break:break-all;
     font-size: 1rem;
 }
 
