@@ -203,4 +203,7 @@ ul li button:focus {
         width: 20px;
         height: 20px;
     }
+    .delete-btn {
+        top: 20px;
+    }
 }
