@@ -15,7 +15,8 @@
 
 body {
     background-color: var(--darkgrey);
-    margin: 2rem; /* reduce margin for small screens */
+    margin: 2rem;
+    /* reduce margin for small screens */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +30,13 @@ body {
     background-color: var(--grey);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* changed to flex-start for better spacing */
+    justify-content: flex-start;
+    /* changed to flex-start for better spacing */
     align-items: center;
     border-radius: 10px;
     box-shadow: 5px 5px mediumseagreen;
-    padding: 1.25rem 1rem; /* 20px 16px */
+    padding: 1.25rem 1rem;
+    /* 20px 16px */
     box-sizing: border-box;
 }
 
@@ -105,13 +108,14 @@ ul li {
     gap: 10px;
     position: relative;
     user-select: none;
-    flex-wrap: wrap; /* allow wrapping on smaller screens */
+    flex-wrap: wrap;
+    /* allow wrapping on smaller screens */
 }
 
 /* Make the text flexible and break on small widths */
 ul li span:nth-child(2) {
     flex-grow: 1;
-    word-break:break-all;
+    word-break: break-all;
     font-size: 1rem;
 }
 
@@ -160,28 +164,27 @@ ul li button:focus {
         margin: 1rem;
         padding: 0.5rem;
     }
+
     .container {
         max-width: 100%;
         padding: 1rem;
     }
+
     form {
         flex-direction: column;
         gap: 0.5rem;
     }
+
     form input,
     form button {
         width: 100%;
         font-size: 1rem;
         padding: 0.75rem;
     }
+
     ul li {
         padding: 10px 15px;
         margin: 0.75rem 0;
-    }
-    ul li button.delete-btn {
-        position: static;
-        transform: none;
-        margin-left: auto;
     }
 }
 
@@ -189,9 +192,11 @@ ul li button:focus {
     .container h1 {
         font-size: 1.5rem;
     }
+
     ul li span:nth-child(2) {
         font-size: 0.9rem;
     }
+
     ul li button.check-btn,
     ul li button.uncheck-btn,
     ul li button.delete-btn {
